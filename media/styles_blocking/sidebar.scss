@@ -1,0 +1,15 @@
+#sidebar {
+  form.search-form {
+      margin: 0;
+  }
+}
+
+.sidebar__menu {
+  display: none;
+}
+
+@media (min-width: $sidebar-small-activate) {
+  .sidebar__menu {
+      display: flex;
+  }
+}
